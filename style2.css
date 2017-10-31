@@ -1,0 +1,83 @@
+.logo{
+    background: rgb(255, 255, 255);
+    margin: none;
+}
+.logo a{
+        font-family: fontawesome;
+        text-decoration: none;
+        font-size: 37px;
+        letter-spacing: 3px;
+        color: #555555;
+        float: left;
+         }
+.logo a span{
+        font-family: fontawesome;
+        text-decoration: none;
+        font-size: 37px;
+        color: #4CAF50;
+        }
+.logo p{
+        color: #000000;
+        float: right;
+        }
+.main-menu{
+        background: #4CAF50;
+        
+}
+.main-menu ul{
+    float: left;
+}
+.main-menu table{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#search{
+    background: url('search.png') center center no-repeat;
+    width: 50px;
+    height: 25px;
+    background-color: #555555;
+    
+}
+#input{
+
+    width: 450px;
+    height: 15px;
+}
+.main-menu ul li{
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+    position: relative;
+
+    
+}
+.main-menu ul li:hover {
+    display: block;
+    background: rgb(241, 231, 89);
+
+}
+.main-menu ul li:hover .sub-menu {
+    display: block;
+    background: rgb(101, 163, 187);   
+
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.clear{
+    clear:both;
+}
+.main-menu .sub-menu{
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 20px;    
+    width: 200px;
+    }
+.sub-menu li{
+    margin-left: 0px;
+}
